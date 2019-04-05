@@ -1,0 +1,21 @@
+name       : gitbatch
+version    : 0.4.2
+release    : 1
+source     :
+    - https://github.com/isacikgoz/gitbatch/tarball/f46644fdfe33c18741f668d04ef8f6b71824329a : fc83a4f6129fc5cab56ac1ac14174d614cff45928ae8dcca3b2ba132606091a6
+license    : MIT
+component  : programming.tools
+summary    : Manage your git repositories in one place
+description: |
+    Managing multiple git repositories is easier than ever. I (was) often end up working on many directories and manually pulling updates etc. To make this routine faster, I created a simple tool to handle this job. Although the focus is batch jobs, you can still do de facto micro management of your git repositories (e.g add/reset, stash, commit etc.).
+networking : yes    
+builddeps  :
+    - git
+    - golang
+rundeps    :
+    - git      
+build      : |
+    GOOS=linux GOARCH=amd64 go build -o dist/gitbatch
+install    : |
+    install -Dm00755 dist/gitbatch $installdir/usr/bin/gitbatch
+

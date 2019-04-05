@@ -1,0 +1,34 @@
+<PISI>
+    <Source>
+        <Name>gitbatch</Name>
+        <Packager>
+            <Name>Cory Forsstrom</Name>
+            <Email>cforsstrom18@gmail.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>programming.tools</PartOf>
+        <Summary xml:lang="en">Manage your git repositories in one place</Summary>
+        <Description xml:lang="en">Managing multiple git repositories is easier than ever. I (was) often end up working on many directories and manually pulling updates etc. To make this routine faster, I created a simple tool to handle this job. Although the focus is batch jobs, you can still do de facto micro management of your git repositories (e.g add/reset, stash, commit etc.).
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>gitbatch</Name>
+        <Summary xml:lang="en">Manage your git repositories in one place</Summary>
+        <Description xml:lang="en">Managing multiple git repositories is easier than ever. I (was) often end up working on many directories and manually pulling updates etc. To make this routine faster, I created a simple tool to handle this job. Although the focus is batch jobs, you can still do de facto micro management of your git repositories (e.g add/reset, stash, commit etc.).
+</Description>
+        <PartOf>programming.tools</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/gitbatch</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2019-04-05</Date>
+            <Version>0.4.2</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Cory Forsstrom</Name>
+            <Email>cforsstrom18@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
