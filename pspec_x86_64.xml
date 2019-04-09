@@ -24,8 +24,8 @@
     </Package>
     <History>
         <Update release="1">
-            <Date>2019-04-05</Date>
-            <Version>0.4.2</Version>
+            <Date>2019-04-09</Date>
+            <Version>0.4.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Cory Forsstrom</Name>
             <Email>cforsstrom18@gmail.com</Email>
